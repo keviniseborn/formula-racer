@@ -14,7 +14,7 @@ const GameUI: React.FC<GameUIProps> = ({ isPlaying, score, gameState, onStartGam
     <>
       {!isPlaying && (
         <div className="start-screen">
-          <h1 className="game-title">F1 Racing Game</h1>
+          <h1 className="game-title">Racing Game</h1>
           <p className="game-instructions">Use arrow keys to drive the car around the track</p>
           <button 
             onClick={onStartGame}
